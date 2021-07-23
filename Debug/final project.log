@@ -1,0 +1,30 @@
+﻿Build started 2/18/2021 10:22:17 PM.
+     1>Project "E:\1st Semester\Fundamentals Of computer programming\final project\final project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt myconsole.cpp mygraphics.cpp Source.cpp
+         Source.cpp
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(291): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(300): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(317): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(325): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(342): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(388): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(945): warning C4145: '==' : relational expression as switch expression; possible confusion with '='
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(1032): warning C4145: '==' : relational expression as switch expression; possible confusion with '='
+     1>e:\1st semester\fundamentals of computer programming\final project\source.cpp(1103): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         mygraphics.cpp
+     1>e:\1st semester\fundamentals of computer programming\final project\mygraphics.cpp(110): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         myconsole.cpp
+     1>e:\1st semester\fundamentals of computer programming\final project\myconsole.cpp(184): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\1st semester\fundamentals of computer programming\final project\myconsole.cpp(185): warning C4305: '+=' : truncation from 'double' to 'float'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\1st Semester\Fundamentals Of computer programming\final project\Debug\final project.exe" /INCREMENTAL /NOLOGO Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\1st Semester\Fundamentals Of computer programming\final project\Debug\final project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\1st Semester\Fundamentals Of computer programming\final project\Debug\final project.lib" /MACHINE:X86 Debug\myconsole.obj
+         Debug\mygraphics.obj
+         Debug\Source.obj
+         final project.vcxproj -> E:\1st Semester\Fundamentals Of computer programming\final project\Debug\final project.exe
+     1>Done Building Project "E:\1st Semester\Fundamentals Of computer programming\final project\final project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.44
